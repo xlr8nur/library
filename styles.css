@@ -1,0 +1,90 @@
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #a852e2;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
+
+#book-display {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#book-display td {
+    border: 1px solid #444;
+    padding: 8px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#new-book-dialog {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    border: none;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input, checkbox {
+    margin-bottom: 16px;
+}
+
+#new-book-form button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#new-book-form button:hover {
+    background-color: #777;
+}
+
+
+#new-book-button {
+    background-color: #934caf;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#new-book-button:hover {
+    background-color: #934caf;
+}
