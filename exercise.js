@@ -58,7 +58,7 @@ function displayBooks() {
       });
       
       var toggleReadButton = document.createElement("button");
-      toggleReadButton.textContent = "Toggle Read";
+      toggleReadButton.textContent = "Reading Status";
       toggleReadButton.dataset.index = i;
       toggleReadButton.addEventListener("click", function() {
         library[parseInt(this.dataset.index)].toggleReadStatus();
