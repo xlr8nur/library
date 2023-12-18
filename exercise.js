@@ -8,7 +8,7 @@ function Book(title, author, pages, read) {
 
 // Function to add new book objects to the array
 function addBookToLibrary(book) {
-  library.push(newBook);
+  library.push(book);
   displayBooks();
 }
 
@@ -116,42 +116,3 @@ var library = [];
 
 // Display books on the page
 displayBooks();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-function Book(title,author,page,readStatus) {
-    this.title = title;
-    this.author = author;
-    this.page = page;
-    this.readStatus = readStatus;
-}
-
-Book.prototype.toString = function() {
-    return this.title + 'by' + this.author + ', is ' + this.page + ' long ' + this.readStatus;
-}
-
-Book.prototype.print = function() {
-    console.log(this.toString());
-}
-
-var theHobbit = new Book ('The Hobbit', 'J.R.R. Tolkien', 295, 'did not read yet.');
-
-theHobbit.print();
-
-*/
