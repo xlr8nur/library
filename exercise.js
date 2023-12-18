@@ -1,16 +1,12 @@
-// constructor
-class Book {
-    constructor(title, author, pages, read) {
-        this.title = form.title.value; 
-        this.author = form.author.value; 
-        this.pages = form.pages.value + 'pg'; 
-        this.read = form.read.checked; 
-    }
+// Constructor function to create Book objects
+function Book(title, author, pages, read) {
+  this.title = title;
+  this.author = author;
+  this.pages = pages;
+  this.read = read;
 }
 
-let library = [];
-let newBook;
-
+// Function to add new book objects to the array
 function addBookToLibrary(book) {
   library.push(newBook);
   displayBooks();
