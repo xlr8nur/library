@@ -1,2 +1,2 @@
 # js-exercise
-library app
+the odin project library assignment
